@@ -4,7 +4,7 @@
 Simple hello world python app taken from https://docs.docker.com/get-started/
 
 ### commands
-docker build --tag=pythonapp .
+`docker build --tag=pythonapp .
 docker run -p 4000:80 pythonapp
 docker run -d -p 4000:80 pythonapp (run in background)
 docker container stop deb52db86e95                           # Use container id
@@ -21,7 +21,7 @@ docker login             # Log in this CLI session using your Docker credentials
 docker tag <image> username/repository:tag  # Tag <image> for upload to registry
 docker push username/repository:tag            # Upload tagged image to registry
 docker run username/repository:tag                   # Run image from a registry
-
+`
 
 
 
